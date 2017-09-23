@@ -1,0 +1,7 @@
+<aura:component implements="flexipage:availableForAllPageTypes" 
+                access="global">
+
+    <aura:attribute name="startTime" type="Date" />
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}"/>
+                
+</aura:component>	
